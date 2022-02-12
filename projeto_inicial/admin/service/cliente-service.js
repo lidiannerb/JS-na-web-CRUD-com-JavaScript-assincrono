@@ -17,6 +17,7 @@ const criaNovaLinha = (nome, email) => {
 linhaNovoCLiente.innerHTML = conteudo
     return linhaNovoCLiente
 }  //função já está ok, está inserindo o conteudo dentro da linha e retornando essa linha com o conteúdo
+
 const tabela = document.querySelector('[data-tabela]') //percorrendo o DOM e acessando a tabela de clientes
 
 const listaClientes = () => {
